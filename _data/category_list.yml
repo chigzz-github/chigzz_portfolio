@@ -1,0 +1,12 @@
+#This file defines all the categories you are using
+
+
+using-subcategories:
+  name: About me
+  description: My journey towards Analytics
+using-odin:
+  name: GitHub Projects
+  description: Below are mine GitHub Projects
+customizing-odin:
+  name: Dashboards
+  description: Below are mine Dashboards
