@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MIT Fintech Challenge"
-date: 2019-11-10 08:44:38 -0400
+date: 2019-11-09 08:44:38 -0400
 category: using-odin
 author: mac
 short-description: Using Python
