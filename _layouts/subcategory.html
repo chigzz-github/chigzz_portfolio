@@ -15,10 +15,10 @@ layout: default
       <div class="column col-12">
         <ul class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="https://chigzz-github.github.io/chigzz_portfolio/">Home</a>
+            <a href="{{site.url }}{{ site.baseurl }}">Home</a>
           </li>
           <li class="breadcrumb-item">
-            <a href="https://chigzz-github.github.io/{{ page_subcategory.parent-category | slugify }}">{{ page_subcategory.parent-category-name }}</a>
+            <a href="{{site.url }}{{ page_subcategory.parent-category | slugify }}">{{ page_subcategory.parent-category-name }}</a>
           </li>
           <li class="breadcrumb-item">
             <a href="#">{{ page_subcategory.name }}</a>
