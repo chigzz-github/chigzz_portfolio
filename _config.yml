@@ -20,8 +20,8 @@
 
 title: CHIRAG_SHAH WEBSITE
 description: This website is being built with the use of ODIN theme from JEKYLL website
-baseurl: "chigzz_portfolio"  # the subpath of your site, e.g. /support
-url: "https://chigzz-github.github.io/"  # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+baseurl: /chigzz_portfolio  # the subpath of your site, e.g. /support
+url: https://chigzz-github.github.io  # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 #Define whether this is a knowledge base, help center, or something else
