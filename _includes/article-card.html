@@ -11,7 +11,9 @@
             {% if site.use_authors == true %}
             {% assign post_author = site.data.authors[post.author] %}
             <div class="flex-vertical-center">
-              
+              <figure class="figure" style="align-items: center;">
+                <img  src="{{ site.baseurl }}/assets/{{ post_author.image}}" alt="...">
+              </figure>
               <div class="ml-2">
                 <p class="text-dark text-small mb-0">Done by <span class="text-primary">{{ post_author.name }}</span></p>
               </div>
