@@ -21,20 +21,22 @@
             <a href="{{ site.linkedin_page}}"><i class='uil uil-linkedin' target="_blank"></i></a>
             {% endif %}
 
-            {% if site.facebook_page == null %}
-            {% else %}
-            <a href="{{ site.facebook_page}}"><i class='uil uil-facebook' target="_blank"></i></a>
-            {% endif %}
-
             {% if site.email == null %}
             {% else %}
             <a href="mailto:{{ site.email }}"><i class='uil uil-envelope' target="_blank"></i></a>
             {% endif %}
-
-            {% if site.instagram_username == null %}
+			
+			{% if site.instagram_username == null %}
             {% else %}
             <a href="http://instagram.com/{{site.instagram_username}}" target="_blank"><i class='uil uil-instagram'></i></a>
             {% endif %}
+			
+			{% if site.facebook_page == null %}
+            {% else %}
+            <a href="{{ site.facebook_page}}"><i class='uil uil-facebook' target="_blank"></i></a>
+            {% endif %}
+
+
           </div>
         <p>© 20{{ site.time | date: '%y' }} All rights reserved.</p>
         
