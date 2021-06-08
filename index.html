@@ -1,30 +1,206 @@
----
-layout: default
-title: Home
----
-{% assign page_category = site.data.category_list[page.category] %}
+<!DOCTYPE html>
+<html lang="en">
 
-  {% include header-home.html %}
+  <head>
+  <meta charset="UTF-8">
+  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BSYMJSQRK8"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-BSYMJSQRK8');
+	</script>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <meta property="og:title" content="CHIRAG_SHAH WEBSITE">
+  <meta property="og:site_name" content="chigzz">
+  <meta property="og:url" content="http://localhost:4000/chigzz_portfolio">
+  <meta property="og:description" content="This website is being built with the use of ODIN theme from JEKYLL website">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://localhost:4000/chigzz_portfolio/assets/odin-meta.png">
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.0.1/css/unicons.css">
+
+  <title>
+    
+      CHIRAG_SHAH WEBSITE | 
+    
+  </title>
+
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/chigzz_portfolio/css/styles.css">
+  <link rel="stylesheet" href="http://localhost:4000/chigzz_portfolio/css/styles.css">
+
+
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="http://localhost:4000/chigzz_portfolio/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="CHIRAG_SHAH WEBSITE" href="/chigzz_portfolioatom.xml">
+</head>
+
+
+  <body>
+    
+
+  <div class="header-bg">
+  <div class="container-full">
+    <div class="header ">
+      <nav class="container grid-xl navbar">
+  <div class="flex-vertical-center hide-sm">
+    <a style="width: 20%;" href="http://localhost:4000/chigzz_portfolio" class="logo">
+      <img style="max-width: 100%;" src="/chigzz_portfolio/assets/logo.png"/>
+    </a>
+    <p class="m-0 ml-2 text-light d-inline"></p>
+  </div>
+  <div class="text-center show-sm">
+    <a style="width: 100%;" href="http://localhost:4000/chigzz_portfolio" class="logo flex-centered">
+      <img style="max-width: 150px;" src="/chigzz_portfolio/assets/logo.png"/>
+    </a>
+    <p class="m-0 text-light"></p>
+    <a style="height: auto;" class="btn btn-lg btn-outline py-2 mt-4">Home</a>
+
+  </div>
+  <ul class="main-nav">
+    
+    <li class="mx-4">
+      <a  class="nav-links" href="https://github.com/chigzz-github" target="_blank">Github</a>
+    </li>
+    
+    
+    <li class="mx-4">
+      <a  class="nav-links" href="https://www.linkedin.com/in/chiragshah1605/" target="_blank">LinkedIn</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="https://chigzz-github.github.io/chigzz_portfolio/" style="height: auto;" class="btn btn-lg btn-outline py-2">HOME</a>
+    </li>
+  </ul>
+</nav>
+      <header class="container grid-xl landing-header">
+        <div class="columns pt-12 pb-8">
+          <div class="column col-11 col-mx-auto text-center">
+            <h1 class="mt-2 super-h1">CHIRAG SHAH</h1>
+            <h4 class="text-secondary">DATA ANALYST | DATA SCIENTIST</h4>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
     <div class="container-full">
       <div class="container grid-xl">
         <div class="columns negative-m-s">
           <div class="column col-12 text-center">
           </div>
-          {% for category in site.data.category_list %}
-          {% capture category_name %}{{ category | first }}{% endcapture %}
-          {% assign page_category = site.data.category_list[category_name] %}
+          
+          
+          
           <div class="column col-4 col-md-6 col-sm-12">
-            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+            <a href="/chigzz_portfolio/using-subcategories">
               <div class="card card-link">
                 <div class="card-body text-center my-4">
-                  <h5 class="text-bold">{{ page_category.name }}</h5>
+                  <h5 class="text-bold">About me</h5>
                  
                 </div>
               </div>
             </a>
           </div>
-		   {% endfor %} 
-		   {% include more-help.html %}
+		   
+          
+          
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="/chigzz_portfolio/using-odin">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">GitHub Projects</h5>
+                 
+                </div>
+              </div>
+            </a>
+          </div>
+		   
+          
+          
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="/chigzz_portfolio/customizing-odin">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">Dashboards</h5>
+                 
+                </div>
+              </div>
+            </a>
+          </div>
+		    
+		   
+
+<div class="column col-4 col-sm-12 p-6 mb-12">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/chigzz_portfolio/assets/chigzz.PNG" style="width:300px;height:300px">
+</div>
+
+
+<div class="column col-8 col-sm-12 p-15 mb-8">
+  &nbsp;&nbsp;&nbsp;<p></p> <span style= "font-family:Roboto;font-weight:normal"><img src="/chigzz_portfolio/assets/apos.png" style="width:20px;height:20px">&nbsp;I am  passionate  about  working on dataset analysis and creating interactive
+dashboards. Working in the healthcare sector has motivated me to help people</span>
+<span style= "font-family:Roboto;font-weight:normal">by technology and to protect them from harm. I am an energetic worker with a</span>
+<span style= "font-family:Roboto;font-weight:normal">strong aspiration to build a positive working environment and to achieve the highest</span>
+<span style= "font-family:Roboto;font-weight:normal">productivity and results at work.</span>
+</span>
+</div>
+
         </div>
       </div>
     </div>
+
+    
+<section class="container-full footer">
+  <svg id="anglesvg" viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg"><path d="M720 60l720-60H0z" fill="#f5f6ff" /></svg>
+  <div class="container grid-xl footer-contents mb-0">
+    <div class="columns text-center">
+      <div class="column col-12">
+        <img style="max-width: 10%; min-width: 150px; opacity: 0.7;" src="/chigzz_portfolio/assets/logo.png"/>
+        <div class="footer-social my-4">
+            
+            
+
+            
+            <a href="https://github.com/chigzz-github" target="_blank"><i class='uil uil-github'></i></a>
+            
+
+            
+            <a href="https://www.linkedin.com/in/chiragshah1605/"><i class='uil uil-linkedin' target="_blank"></i></a>
+            
+
+            
+            <a href="mailto:shah.chir@northeastern.edu"><i class='uil uil-envelope' target="_blank"></i></a>
+            
+			
+
+
+          </div>
+        <p>© 2021 All rights reserved.</p>
+        
+        <a class="text-small" href="https://jekyllrb.com/" target="_blank">Powered by Jekyll</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+    <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+    
+  </body>
+</html>
